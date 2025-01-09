@@ -54,7 +54,7 @@ margin-bottom: 10px;
     display: block;
     cursor: pointer;
 }
-.searchpeoplebox{
+#searchpeoplebox{
     padding: 10px 60px;
     border-radius: 20px;
     border: 1px solid grey;

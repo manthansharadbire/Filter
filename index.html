@@ -14,15 +14,10 @@
     <button class="addpeoplebtn"><b>Add People</b></button>  </div>
     <div class="searchpeople-container">
     <img src="./images/search.png" alt="searchforpeople" class="searchpeoplelogo">
-    <input type="text" placeholder="Search for People" class="searchpeoplebox"></div>
+    <input type="text" placeholder="Search for People" id="searchpeoplebox" onkeyup="loadSearchResult()"></div>
     <span class="inmeeting">IN MEETING</span>
-    <span class="contributor-names">Manthan Bire</span>
-    <span class="contributor-names">Suraj Shende</span>
-    <span class="contributor-names">Karan Masram</span>
-    <span class="contributor-names">Dilesh Kurve</span>
-    <span class="contributor-names">Prashant Shende</span>
-    <span class="contributor-names">Abhishek Shende</span>
-    <span class="contributor-names">Parag Thakre</span>
+    <div id="namescontainer"></div>
 </div>
+<script src = "script.js"></script>
 </body>
 </html>
