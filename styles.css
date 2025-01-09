@@ -1,0 +1,81 @@
+.g-container{
+    border: 2px solid black;
+    height: 95vh;
+    width: 30%;
+    margin: 1px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.g-logo{
+    height: 170px;
+    width: 170px;
+    margin: -30px 10px;
+    display: block;
+}
+
+
+.addpeople-container{
+display: flex;
+margin-bottom: 10px;
+
+}
+.addpeoplelogo{
+    height: 25px;
+    display: block;
+    position: relative;
+    left: 45px;
+    top:4px;
+    cursor: pointer;
+    
+} 
+.addpeoplebtn{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(196, 193, 190);
+    display: block;
+    padding: 10px 50px;
+    color: rgb(2, 2, 2);
+    cursor: pointer;
+    padding-right: 20px;
+    border: 1px solid grey;
+}
+
+
+.searchpeople-container{
+    display: flex;
+}
+.searchpeoplelogo{
+    height: 22px; 
+    position: relative;
+    left: 45px;
+    top:7px;
+    display: block;
+    cursor: pointer;
+}
+.searchpeoplebox{
+    padding: 10px 60px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding-right: 10px;
+    background-color: rgb(212, 210, 207);
+    cursor: pointer;
+}
+
+.inmeeting{
+    color: rgb(70, 65, 65);
+    margin: 15px auto;
+    
+}
+
+.contributor-names{
+    padding: 10px;
+    margin-left: 15px;
+    border: 2px solid rgb(180, 172, 172);
+    border-radius: 20px;
+    margin-bottom: 3px;
+    width: 325px;
+    
+
+}
